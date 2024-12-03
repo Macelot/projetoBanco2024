@@ -44,6 +44,11 @@ public class TelaTabelasDados extends javax.swing.JInternalFrame {
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
 
+        setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
+
         jButton1.setBackground(new java.awt.Color(153, 255, 153));
         jButton1.setText("Criar Tabela users");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
