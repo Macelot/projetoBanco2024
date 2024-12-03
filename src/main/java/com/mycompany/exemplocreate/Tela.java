@@ -201,7 +201,7 @@ public class Tela extends javax.swing.JFrame {
         // TODO add your handling code here:
         TelaInsert t;
         t = new TelaInsert();
-        t.setExtendedState(MAXIMIZED_BOTH);
+        //t.setExtendedState(MAXIMIZED_BOTH);
         t.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

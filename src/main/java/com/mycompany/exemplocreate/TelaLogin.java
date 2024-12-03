@@ -48,6 +48,10 @@ public class TelaLogin extends javax.swing.JInternalFrame {
         btnCancelar_1 = new javax.swing.JButton();
         btnOk = new javax.swing.JButton();
 
+        setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
         getContentPane().setLayout(null);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N

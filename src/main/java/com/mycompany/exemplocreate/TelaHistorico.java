@@ -84,6 +84,10 @@ public class TelaHistorico extends javax.swing.JInternalFrame {
         btnListaBloquados = new javax.swing.JButton();
         btnDesbloquear = new javax.swing.JButton();
 
+        setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
         getContentPane().setLayout(null);
 
         btnListaUsuarios.setBackground(new java.awt.Color(0, 204, 255));
@@ -147,7 +151,7 @@ public class TelaHistorico extends javax.swing.JInternalFrame {
         getContentPane().add(btnDesbloquear);
         btnDesbloquear.setBounds(490, 20, 150, 30);
 
-        setBounds(0, 0, 751, 512);
+        setBounds(0, 0, 677, 464);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnListaUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListaUsuariosActionPerformed

@@ -48,6 +48,11 @@ public class TelaJoin extends javax.swing.JInternalFrame {
         btnUNION = new javax.swing.JButton();
         btnUNION1 = new javax.swing.JButton();
 
+        setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
+
         btnCria2Tabelas.setText("Cria duas tabelas");
         btnCria2Tabelas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
